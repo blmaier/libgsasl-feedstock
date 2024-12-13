@@ -5,7 +5,7 @@ package:
   version: "{{ version }}"
 
 source:
-  url: ftp://ftp.gnu.org/gnu/gsasl/libgsasl-{{ version }}.tar.gz
+  url: https://ftp.gnu.org/gnu/gsasl/libgsasl-{{ version }}.tar.gz
   sha256: f1b553384dedbd87478449775546a358d6f5140c15cccc8fb574136fdc77329f
 
 build:
@@ -43,7 +43,7 @@ test:
 about:
   home: http://www.gnu.org/software/gsasl/
   license: LGPL-2.1-or-later
-  license_file: 
+  license_file:
     - COPYING.LIB
     - COPYING
 
